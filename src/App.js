@@ -33,6 +33,7 @@ import { useEffect } from 'react';
 
 function App() 
 {
+  let x=0;
   let user;
 
   useEffect(()=>{
@@ -86,7 +87,7 @@ function App()
             <Route path='/Admin/dcondidate' element={<DCondidate/>}></Route>
             <Route path='/Admin/results' element={<ResultsA/>}></Route>
             <Route path='/Admin/position' element={<Position/>}></Route>
-            {/* <Route path='/Admin/logout' element={<Logout/>}></Route> */}
+           
 
             <Route path='/Admin/studentDetails/:id' element={<StudentDetails/>}></Route>
             <Route path='/Admin/condidateDetails/:id' element={<CondidateDetails/>}></Route>
