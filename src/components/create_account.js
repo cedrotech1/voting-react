@@ -149,8 +149,8 @@ function One()
                 </div>
                 <br/>
                 <div className="row">
-                            <div className="col-md-6"> <Link to="/create" className="text-decoration-none">  <h4 className="bg-info text-white caption"> REGISTER </h4></Link></div>
-                            <div className="col-md-6"><Link to="/login" className="text-decoration-none"> <h4 className="bg-info text-white caption"> LOGIN </h4></Link></div>
+                            {/* <div className="col-md-6"> <Link to="/create" className="text-decoration-none">  <h4 className="bg-info text-white caption"> REGISTER </h4></Link></div> */}
+                            <div className="col-md-12"><Link to="/login" className="text-decoration-none"> <h4 className="bg-info text-white caption"> LOGIN </h4></Link></div>
                         </div>
                 </form>
                      </div> 
